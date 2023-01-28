@@ -1,7 +1,7 @@
 # RadioButton
 
 
-![](https://imgur.com/a/uouRbIa)
+![](https://imgur.com/a/5AUs0jk)
 
 A custom `RadioButton` class for iOS using `UIButton` that allows you to easily create radio buttons in your app.
 
