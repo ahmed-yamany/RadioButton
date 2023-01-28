@@ -18,7 +18,7 @@ view.addSubview(radioButton)
 ```
 ## Customization
 The default selected and unselecetd images are `checkmark.circle.fill` and `circle`
-but You can customize the RadioButton class to fit your app's design by modifying the selectedImage and unSelectedImage properties.
+but You can customize the RadioButton class to fit your app's design by modifying the selectedImage and unSelectedImage methods.
 
 ```
 class ViewController: UIViewController {
