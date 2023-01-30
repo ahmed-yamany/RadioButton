@@ -1,8 +1,6 @@
 # RadioButton
 
 
-![](https://imgur.com/a/5AUs0jk)
-
 A custom `RadioButton` class for iOS using `UIButton` that allows you to easily create radio buttons in your app.
 
 ## Features
@@ -12,7 +10,7 @@ A custom `RadioButton` class for iOS using `UIButton` that allows you to easily 
 ## Usage
 1. Create an instance of the RadioButton class and add it to your view 
 
-```
+```swift
 let radioButton = RadioButton() { (isSelected) in
     // handle selection changes here
 }
@@ -23,7 +21,7 @@ view.addSubview(radioButton)
 The default selected and unselecetd images are `checkmark.circle.fill` and `circle`
 but You can customize the RadioButton class to fit your app's design by modifying the selectedImage and unSelectedImage methods.
 
-```
+```swift
 class ViewController: UIViewController {
 
     let radioButton = RadioButton() { (isSelected) in
